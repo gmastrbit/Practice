@@ -26,6 +26,18 @@
 
 using namespace std;
 
+void set(){
+
+}
+
+void show(){
+
+}
+
+void sort(){
+
+}
+
 int main(){
     setlocale(LC_ALL, "Russian");
 
@@ -39,7 +51,7 @@ int main(){
         int amount = 0;
     };
 
-    cout << "Ввеiть кiлькiсть записiв: ";
+    cout << "Введiть кiлькiсть записiв: ";
     int n;
     cin >> n;
 
@@ -186,7 +198,7 @@ int main(){
         }
     }
 
-    cout << endl << endl << "Виведення сортованих даних по інвентарному номеру в табличному форматі: " << endl << endl;
+    cout << endl << endl << "Виведення сортованих даних" << endl << endl;
 
     for (int i = 0; i < n; ++i) {
         cout << "===========================================" << endl;

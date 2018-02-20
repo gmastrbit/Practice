@@ -122,32 +122,32 @@ Practice/fast:
 	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/build
 .PHONY : Practice/fast
 
-18.obj: 18.cpp.obj
+20.obj: 20.cpp.obj
 
-.PHONY : 18.obj
+.PHONY : 20.obj
 
 # target to build an object file
-18.cpp.obj:
-	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/18.cpp.obj
-.PHONY : 18.cpp.obj
+20.cpp.obj:
+	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/20.cpp.obj
+.PHONY : 20.cpp.obj
 
-18.i: 18.cpp.i
+20.i: 20.cpp.i
 
-.PHONY : 18.i
+.PHONY : 20.i
 
 # target to preprocess a source file
-18.cpp.i:
-	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/18.cpp.i
-.PHONY : 18.cpp.i
+20.cpp.i:
+	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/20.cpp.i
+.PHONY : 20.cpp.i
 
-18.s: 18.cpp.s
+20.s: 20.cpp.s
 
-.PHONY : 18.s
+.PHONY : 20.s
 
 # target to generate assembly for a file
-18.cpp.s:
-	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/18.cpp.s
-.PHONY : 18.cpp.s
+20.cpp.s:
+	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/20.cpp.s
+.PHONY : 20.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Practice
 	@echo ... rebuild_cache
-	@echo ... 18.obj
-	@echo ... 18.i
-	@echo ... 18.s
+	@echo ... 20.obj
+	@echo ... 20.i
+	@echo ... 20.s
 .PHONY : help
 
 

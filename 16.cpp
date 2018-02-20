@@ -16,7 +16,7 @@ int main(){
         int amount = 0;
     };
 
-    cout << "Ввеiть кiлькiсть записiв: ";
+    cout << "Введiть кiлькiсть записiв: ";
     int n;
     cin >> n;
 
