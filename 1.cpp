@@ -2,6 +2,7 @@
 #include <cmath>
 
 // Задача 1
+// Обчислення арифметичних виразів.
 
 using namespace std;
 
