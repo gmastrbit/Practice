@@ -56,38 +56,38 @@ include CMakeFiles/Practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Practice.dir/flags.make
 
-CMakeFiles/Practice.dir/12.cpp.obj: CMakeFiles/Practice.dir/flags.make
-CMakeFiles/Practice.dir/12.cpp.obj: ../12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\H_Inc\CLionProjects\Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practice.dir/12.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Practice.dir\12.cpp.obj -c C:\Users\H_Inc\CLionProjects\Practice\12.cpp
+CMakeFiles/Practice.dir/15.cpp.obj: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/15.cpp.obj: ../15.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\H_Inc\CLionProjects\Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practice.dir/15.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Practice.dir\15.cpp.obj -c C:\Users\H_Inc\CLionProjects\Practice\15.cpp
 
-CMakeFiles/Practice.dir/12.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/12.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\H_Inc\CLionProjects\Practice\12.cpp > CMakeFiles\Practice.dir\12.cpp.i
+CMakeFiles/Practice.dir/15.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/15.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\H_Inc\CLionProjects\Practice\15.cpp > CMakeFiles\Practice.dir\15.cpp.i
 
-CMakeFiles/Practice.dir/12.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/12.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\H_Inc\CLionProjects\Practice\12.cpp -o CMakeFiles\Practice.dir\12.cpp.s
+CMakeFiles/Practice.dir/15.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/15.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\H_Inc\CLionProjects\Practice\15.cpp -o CMakeFiles\Practice.dir\15.cpp.s
 
-CMakeFiles/Practice.dir/12.cpp.obj.requires:
+CMakeFiles/Practice.dir/15.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Practice.dir/12.cpp.obj.requires
+.PHONY : CMakeFiles/Practice.dir/15.cpp.obj.requires
 
-CMakeFiles/Practice.dir/12.cpp.obj.provides: CMakeFiles/Practice.dir/12.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/12.cpp.obj.provides.build
-.PHONY : CMakeFiles/Practice.dir/12.cpp.obj.provides
+CMakeFiles/Practice.dir/15.cpp.obj.provides: CMakeFiles/Practice.dir/15.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Practice.dir\build.make CMakeFiles/Practice.dir/15.cpp.obj.provides.build
+.PHONY : CMakeFiles/Practice.dir/15.cpp.obj.provides
 
-CMakeFiles/Practice.dir/12.cpp.obj.provides.build: CMakeFiles/Practice.dir/12.cpp.obj
+CMakeFiles/Practice.dir/15.cpp.obj.provides.build: CMakeFiles/Practice.dir/15.cpp.obj
 
 
 # Object files for target Practice
 Practice_OBJECTS = \
-"CMakeFiles/Practice.dir/12.cpp.obj"
+"CMakeFiles/Practice.dir/15.cpp.obj"
 
 # External object files for target Practice
 Practice_EXTERNAL_OBJECTS =
 
-Practice.exe: CMakeFiles/Practice.dir/12.cpp.obj
+Practice.exe: CMakeFiles/Practice.dir/15.cpp.obj
 Practice.exe: CMakeFiles/Practice.dir/build.make
 Practice.exe: CMakeFiles/Practice.dir/linklibs.rsp
 Practice.exe: CMakeFiles/Practice.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/Practice.dir/build: Practice.exe
 
 .PHONY : CMakeFiles/Practice.dir/build
 
-CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/12.cpp.obj.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/15.cpp.obj.requires
 
 .PHONY : CMakeFiles/Practice.dir/requires
 
