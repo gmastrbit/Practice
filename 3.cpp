@@ -1,14 +1,14 @@
 #include <iostream>
-#include <math.h>
 
 // Задача 3
+// Обчислення арифметичних виразів.
 
 using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
     int s;
-    float res;
+    double res;
     cout << "Нараховано гривень: ";
     cin >> s;
     res = (0.2 * s) / 1;
