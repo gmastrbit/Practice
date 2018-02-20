@@ -1,9 +1,10 @@
 #include <iostream>
-#include <stdlib.h>
-#include <math.h>
+#include <cmath>
 using namespace std;
-// Дано 5 дійсних чисел.
-// Обчислити суму квадратних коренів модулів цих чисел;
+
+// Задача 12
+// Робота з одновимірними масивами
+
 int main() {
     setlocale(LC_ALL, "Russian");
 

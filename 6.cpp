@@ -1,7 +1,8 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
-// Задача 3
+// Задача 6
+// Організація розгалуджень
 
 using namespace std;
 

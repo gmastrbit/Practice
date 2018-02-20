@@ -1,7 +1,8 @@
 #include <iostream>
 #include <math.h>
 
-// Задача 2
+// Задача 8
+// Організація циклу з післяумовою
 
 using namespace std;
 
@@ -9,7 +10,7 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
     int xn, yn;
-    double tmp, res;
+    double tmp, res = 0;
     int arrx[12];
     int arry[12];
 
@@ -31,7 +32,7 @@ int main() {
 
     int i = 1;
 
-    do{
+    do {
         tmp = sqrt( pow((arrx[i-1] - xn),2) + pow((arry[i-1] - yn), 2) );
         cout << "Вiдстань вiд " << i << " точки до точки групового збору: " << tmp << endl;
         res = res + tmp;

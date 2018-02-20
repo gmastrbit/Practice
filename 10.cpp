@@ -1,14 +1,15 @@
 #include <iostream>
-#include <stdlib.h>
+
 using namespace std;
+
+// Задача 10
 // Робота з одновимірними масивами
-// Дано одновимірний масив х, який складається з 12 елементів.
-// Змінити одиницями елементи масиву, які знаходяться після найменшого елементу
+
 int main() {
     setlocale(LC_ALL, "Russian");
 
     int x[12];
-    int zn;
+    int zn = 0;
 
     for (int i = 0; i < 12; i++){
         x[i] = rand()%10+3;
