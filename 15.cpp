@@ -1,10 +1,10 @@
+// Задача 15
+// Робота з багатовимірними масивами
+
 #include <iostream>
 #include <cmath>
 
 using namespace std;
-
-// Задача
-// Робота з багатовимірними масивами
 
 int main() {
     setlocale(LC_ALL, "Russian");
@@ -34,7 +34,6 @@ int main() {
         }
         cout << endl;
     }
-
 
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){

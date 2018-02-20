@@ -1,8 +1,8 @@
-#include <iostream>
-#include <math.h>
-
 // Задача 8
 // Організація циклу з післяумовою
+
+#include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -33,14 +33,13 @@ int main() {
     int i = 1;
 
     do {
-        tmp = sqrt( pow((arrx[i-1] - xn),2) + pow((arry[i-1] - yn), 2) );
+        tmp = sqrt( pow((arrx[i-1] - xn),2) + pow((arry[i-1] - yn), 2));
         cout << "Вiдстань вiд " << i << " точки до точки групового збору: " << tmp << endl;
         res = res + tmp;
         i++;
     } while(i < 13);
 
     cout << endl;
-    cout << "Результат (сума вiддалей): " << res;
+    cout << endl << "Результат (сума вiддалей): " << res;
     return 0;
 }
-

@@ -1,7 +1,7 @@
-#include <iostream>
-
 // Задача 2
 // Обчислення арифметичних виразів
+
+#include <iostream>
 
 using namespace std;
 

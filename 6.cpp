@@ -1,15 +1,14 @@
-#include <iostream>
-#include <cmath>
-
 // Задача 6
 // Організація розгалуджень
+
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    double x;
-    double res;
+    double x, res;
     cout << "Введiть значення x: ";
     cin >> x;
     if (x > 100){

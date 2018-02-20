@@ -1,8 +1,8 @@
-#include <iostream>
-#include <cmath>
-
 // Задача 9
 // Організація циклу з параметром
+
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 

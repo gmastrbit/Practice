@@ -1,9 +1,9 @@
+// Задача 11
+// Робота з одновимірними масивами
+
 #include <iostream>
 
 using namespace std;
-
-// Задача 11
-// Робота з одновимірними масивами
 
 int main() {
     setlocale(LC_ALL, "Russian");

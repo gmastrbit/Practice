@@ -1,9 +1,9 @@
+// Задача 14
+// Робота з багатовимірними масивами
+
 #include <iostream>
 
 using namespace std;
-
-// Задача 14
-// Робота з багатовимірними масивами
 
 int main() {
     setlocale(LC_ALL, "Russian");

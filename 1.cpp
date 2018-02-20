@@ -1,8 +1,8 @@
-#include <iostream>
-#include <cmath>
-
 // Задача 1
 // Обчислення арифметичних виразів
+
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 

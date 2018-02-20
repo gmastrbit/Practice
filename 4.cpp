@@ -1,7 +1,7 @@
-#include <iostream>
-
 // Задача 4
 // Організація розгалуджень
+
+#include <iostream>
 
 using namespace std;
 
