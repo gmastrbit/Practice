@@ -2,6 +2,7 @@
 #include <math.h>
 
 // Задача 2
+// Обчислення арифметичних виразів.
 
 using namespace std;
 
