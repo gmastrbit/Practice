@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/H_Inc/CLionProjects/Practice/24.cpp
+C:/Users/H_Inc/CLionProjects/Practice/25.cpp
 iostream
 -
-stdlib.h
+conio.h
 -
 
