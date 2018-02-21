@@ -1,4 +1,12 @@
 .idea/
 cmake-build-debug/
-CMakeLists.txt
-*.txt
+*.txt*.xml
+.idea/workspace.xml
+*.cmake
+*.bin
+cmake-build-debug/Practice.cbp
+cmake-build-debug/Makefile
+cmake-build-debug/CMakeFiles/Practice.dir/objects1.rsp
+*.exe
+cmake-build-debug/CMakeFiles/clion-environment.txt
+cmake-build-debug/CMakeFiles/clion-log.txt
