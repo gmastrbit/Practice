@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/H_Inc/CLionProjects/Practice/27.cpp
+C:/Users/H_Inc/CLionProjects/Practice/21.cpp
 iostream
 -
-conio.h
+cstring
+-
+iostream
+-
+cstring
 -
 

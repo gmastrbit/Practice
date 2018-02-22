@@ -1,19 +1,19 @@
-#include<iostream>
+// Задача 21
+// Скласти програми для перекладу арабських чисел у римські і для зворотної операції.
+// Наприклад, 255 = CCLV = СТО + СТО + п'ятьдесят + п'ять.
+
+// Римські у арабські
+
+/*
+#include <iostream>
 #include <cstring>
-
 using namespace std;
-
 int main (){
-
     char lat[100];
     int count = 0 ;
-
     cin.getline(lat,100);
-
     for (int i = 0; i < strlen(lat);i++){
-
         switch(lat[i]){
-
             case 'M':
                 count += 1000;
                 break;
@@ -21,7 +21,6 @@ int main (){
                 count += 500;
                 break;
             case 'C':
-
                 if ( i+1 < strlen(lat) && (lat[i + 1] == 'D' || lat[i + 1] == 'M' ) )
                     count -= 100;
                 else
@@ -35,7 +34,6 @@ int main (){
                     count -= 10;
                 else
                     count += 10;
-
                 break;
             case 'V':
                 count += 5;
@@ -44,20 +42,62 @@ int main (){
                 if (i+1 < strlen(lat) && (lat[i + 1] == 'V' || lat[i + 1] == 'X' || lat[i + 1] == 'C'))
                     count -= 1;
                 else count +=1;
-
                 break;
-            default:
-                cout << "Введіть значення" <<;
         }
-
-
     }
-
     cout << count << endl;
-
-    system("pause");
     return 0;
-
-
-
 }
+*/
+
+// Арабські у римські
+
+/*
+#include <iostream>
+#include <cstring>
+using  namespace std;
+string func(int num, string, string, string);
+string func(int num, string hi, string re, string lo){
+    switch(num){
+        case 9:
+            return lo + hi;
+        case 8:
+            return re + lo + lo + lo;
+        case 7:
+            return re + lo + lo;
+        case 6:
+            return re + lo;
+        case 5:
+            return re;
+        case 4:
+            return lo + re;
+        case 3:
+            return lo + lo + lo;
+        case 2:
+            return lo + lo;
+        case 1:
+            return lo;
+        case 0:
+            return "";
+    }
+}
+int main() {
+    system("chcp 1251>0");
+    cout << "Введите число не большее 3999: ";
+    int arabien_num;
+    if (!(cin >> arabien_num) || (arabien_num > 3999)) {
+        cerr << "Невозможно инициализировать число!" << endl;
+        exit(1);
+    }
+    string rome_num;
+    rome_num += func(arabien_num / 1000, "", "", "M");
+    arabien_num %= 1000;
+    rome_num += func(arabien_num / 100, "M", "D", "C");
+    arabien_num %= 100;
+    rome_num += func(arabien_num / 10,  "C", "L", "X");
+    arabien_num %= 10;
+    rome_num += func(arabien_num ,   "X", "V", "I");
+    cout << rome_num << endl;
+    return 0;
+}
+*/
