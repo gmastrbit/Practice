@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/H_Inc/CLionProjects/Practice/21.cpp
+C:/Users/H_Inc/CLionProjects/Practice/test.cpp
 iostream
 -
-cstring
--
-iostream
--
-cstring
+time.h
 -
 

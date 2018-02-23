@@ -3,8 +3,5 @@ project(Practice)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Practice 21.cpp)
-# 18, 21 не готові
-# Задача 21
-# Скласти програми для перекладу арабських чисел у римські і для зворотної операції.
-# Наприклад, 255 = CCLV = СТО + СТО + п'ятьдесят + п'ять.
+add_executable(Practice test.cpp)
+# 18 не готова
