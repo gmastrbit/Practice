@@ -6,26 +6,31 @@
 
 using namespace std;
 
+// новий клас
 class new_storage{
 
 public:
 
-    virtual void Test_one (void) = 0;                          // Чиста (порожня) віртуальна функція.
+    // чиста (порожня) віртуальна функція
+    virtual void Test_one (void) = 0;                          
     void test_two (void) {
         cout << "Реалізація класу не буде наслідуватися!";
     }
 
 };
 
+// основний клас наслідує новий клас
 class storage : public new_storage{
 
 private:
 
+    // оголошення змінних
     int inv_num = 0, weight = 0, price = 0, amount = 0;
     string name = "";
 
 public:
 
+    // методи введення і виведення даних
     void set_inv_num(int test){
         inv_num = test;
     }
@@ -67,7 +72,6 @@ public:
     }
 
     // Функції, які заміняють ті, що були оголошені і реалізовані в класі new_storage
-
     void Test_one (void){
         cout << endl << "Автор програми - Щербаков Богдан" << endl;
     }
@@ -85,6 +89,7 @@ int main() {
     int inv_num, weight, price, amount, n;
     string name;
 
+    // введення і виведення даних
     cout << "Введiть інвентарний номер товару: ";
     cin >> inv_num;
     s.set_inv_num(inv_num);
@@ -105,6 +110,7 @@ int main() {
     cin >> amount;
     s.set_amount(amount);
 
+    // виведення всіх даних
     cout << endl << "Вивести всi данi? (1 - так, 0 - нi): ";
     cin >> n;
     cout << endl;

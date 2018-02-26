@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// основний клас
 class storage{
 
     private:
@@ -15,6 +16,7 @@ class storage{
 
     public:
 
+        // методи введення і виведення даних
         void set_inv_num(int test){
             inv_num = test;
         }
@@ -65,6 +67,7 @@ int main() {
     int inv_num, weight, price, amount, n;
     string name;
 
+    // введення і виведення даних
     cout << "Введiть інвентарний номер товару: ";
     cin >> inv_num;
     s.set_inv_num(inv_num);

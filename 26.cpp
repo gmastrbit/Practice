@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// основний клас
 class storage{
 
 private:
@@ -14,9 +15,12 @@ private:
     string name = "";
 
 public:
-    storage();
-//    storage(int inv_num, int weight, int price, int amount, string name);
 
+    // оголошення конструктора
+    storage();
+    // storage(int inv_num, int weight, int price, int amount, string name);
+
+    // методи введення і виведення даних
     void set_inv_num(int test){
         inv_num = test;
     }
@@ -59,6 +63,7 @@ public:
 
 };
 
+// конструктор
 storage::storage() {
     int inv_num = 0;
     int weight = 0;
@@ -88,6 +93,7 @@ int main() {
     int inv_num, weight, price, amount, n;
     string name;
 
+    // введення і виведення даних
     cout << "Введiть інвентарний номер товару: ";
     cin >> inv_num;
     s.set_inv_num(inv_num);
