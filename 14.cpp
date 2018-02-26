@@ -23,19 +23,16 @@ int main() {
     cin >> k;
     cout << endl;
 
+    // заповнення масиву випадковими значеннями і виведення їх
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
             arr[i][j] = rand()%10;
-        }
-    }
-
-    for (int i = 0; i < n; i++){
-        for (int j = 0; j < m; j++){
             cout << arr[i][j] << " ";
         }
         cout << endl;
     }
 
+    // знаходження суми елементів, індекси яких у сумі складають k
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
             if (i + j == k){

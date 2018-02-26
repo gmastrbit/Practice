@@ -9,10 +9,12 @@ int main() {
     setlocale(LC_ALL, "Russian");
     double a, b;
     double res;
+    // введення даних
     cout << "Введiть значення а: ";
     cin >> a;
     cout << "Введiть значення b: ";
     cin >> b;
+    // обчислення і виведення результату
     if (a > b){
         res = ((b / 2) + 2);
     } else if (a == b) {

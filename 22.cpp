@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// оголошення структури стеку
 struct Stack{
     int info;
     Stack * next;
@@ -76,14 +77,17 @@ int main(){
         _begin = InStack(_begin,in);
     }
 
+    // виведення початкового стеку
     cout << endl << "Початковий стек" << endl;
     View (_begin);
 
+    // звертаємось до функції для заміни місцями 1 і 3 елемента
     _begin = exchange1(_begin, n);
 
     cout << "Заміна місцями 1 і 3 елемента:" << endl;
     View (_begin);
 
+    // звертаємось до функції для заміни місцями 1 і 2 елемента
     _begin = exchange2(_begin, n);
 
     cout << "Заміна місцями 1 і 2 елемента:" << endl;

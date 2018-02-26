@@ -9,8 +9,10 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
     double x, res;
+    // введення даних
     cout << "Введiть значення x: ";
     cin >> x;
+    // обчислення і виведення результату
     if (x > 100){
         cout << "Неможливо обчислити";
     } else {

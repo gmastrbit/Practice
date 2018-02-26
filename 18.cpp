@@ -22,22 +22,43 @@
 // Для введення та виведення інформації, а також для організації
 // сортування необхідно написати відповідні функції.
 
+
+
 #include <iostream>
 
 using namespace std;
 
-struct storage{
-    int inv_num = 0;
-    string name = "";
-    int weight = 0;
-    int price = 0;
-    int amount = 0;
-};
-int n;
-int choice, rerun;
-storage *s = new storage[n];
-
 void set(){
+
+}
+
+void show(){
+
+}
+
+void sort(){
+
+}
+
+int main(){
+    setlocale(LC_ALL, "Russian");
+
+    int choice, rerun;
+
+    struct storage{
+        int inv_num = 0;
+        string name = "";
+        int weight = 0;
+        int price = 0;
+        int amount = 0;
+    };
+
+    cout << "Введiть кiлькiсть записiв: ";
+    int n;
+    cin >> n;
+
+    storage *s = new storage[n];
+
     for (int i = 0; i < n ; ++i){
         cout << endl << "Інвентарний номер " << i+1 << "-го товару: ";
         cin >> s[i].inv_num;
@@ -54,6 +75,20 @@ void set(){
         cout << "Кількість " << i+1 << "-го товару: ";
         cin >> s[i].amount;
     }
+
+    cout << endl << "Виведення даних в табличному форматі: " << endl;
+
+    for (int i = 0; i < n ; ++i){
+        cout << "===========================================" << endl;
+        cout << "Товар №" << i+1 << endl << endl;
+        cout << "Інвентарний номер: " << s[i].inv_num << endl;
+        cout << "Назва: " << s[i].name << endl;
+        cout << "Вага: " << s[i].weight << endl;
+        cout << "Ціна: " << s[i].price << endl;
+        cout << "Кількість: " << s[i].amount << endl;
+    }
+
+    start:
 
     cout << "===========================================" << endl;
     cout << endl << "Виберіть параметр сортування даних:" << endl << endl;
@@ -75,9 +110,6 @@ void set(){
     cout << "Ваш вибір: ";
     cin >> choice;
 
-}
-
-void sort(){
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n - 1; ++j) {
             switch(choice) {
@@ -167,9 +199,7 @@ void sort(){
             }
         }
     }
-}
 
-void show(){
     cout << endl << endl << "Виведення сортованих даних" << endl << endl;
 
     for (int i = 0; i < n; ++i) {
@@ -184,40 +214,15 @@ void show(){
     cout << endl << "Повторити виведення потрібної інформації? (1 - так, 0 - ні): ";
     cin >> rerun;
 
-//    if (rerun == 1){
-//        goto start;
-//    } else {
-//
-//    }
+    if (rerun == 1){
+        goto start;
+    } else {
+        return 0;
+    }
 }
-
-int main(){
-    setlocale(LC_ALL, "Russian");
-
-    cout << "Введiть кiлькiсть записiв: ";
-    cin >> n;
-
-    set();
-    sort();
-    show();
-
-//    start:
-}
-
-
-
-
-
 
 
 // Початковий код:
-
-
-
-
-
-
-
 
 /*
 #include <iostream>

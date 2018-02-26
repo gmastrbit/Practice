@@ -10,6 +10,7 @@ int main() {
     setlocale(LC_ALL, "Russian");
     double m[3] = {-1.85, 2.39, 3.65};
 
+    // організація циклу з параметром
     for(int i = 1; i <= 3; i++) {
         double result = 0;
         for(double q = 2.8; q < 5.4; q = q + 1.3) {

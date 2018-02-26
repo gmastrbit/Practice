@@ -10,9 +10,12 @@ int main() {
 
     string s;
     int i, size, res = 0;
+
+    // введення рядка
     cout << "Введіть рядок символів: ";
     cin >> s;
 
+    // перевірка, чи є в рядку буква w
     size = s.size();
     for (i = 0; i <= size; i++){
         if (s[i] == 'w') {
@@ -20,6 +23,7 @@ int main() {
         }
     }
 
+    // виведення результату
     if (res > 0) {
         cout << "Буква w є в рядку." << endl;
     } else {

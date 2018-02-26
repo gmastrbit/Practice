@@ -6,6 +6,7 @@
 
 using  namespace std;
 
+// функція для переводу арабських чисел у римські
 string func(int num, string, string, string);
 string func(int num, string hi, string re, string lo){
     switch(num){
@@ -47,6 +48,7 @@ int main() {
         exit(1);
     }
 
+    // переведення за допомогою функції арабських чисел у римські
     string rome_num;
 
     rome_num += func(arabien_num / 1000, "", "", "M");
@@ -59,8 +61,10 @@ int main() {
 
     cout << "Римське число: " << rome_num << endl;
 
+    // отримуємо римське число в змінну
     lat = rome_num.c_str();
 
+    // переведення римського числа в арабське
     for (int i = 0; i < strlen(lat);i++){
         switch(lat[i]){
             case 'M':
