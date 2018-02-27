@@ -3,5 +3,4 @@ project(Practice)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Practice 18.cpp)
-# 18 не готова
+add_executable(Practice 9.cpp)

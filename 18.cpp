@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// оголошення структури
 struct storage{
     int inv_num = 0;
     string name = "";
@@ -17,16 +18,23 @@ storage *s;
 int n;
 int choice, rerun;
 
+// функція для введення даних
 void set(){
     for (int i = 0; i < n ; ++i){
-        cout << endl << "Інвентарний номер " << i+1 << "-го товару: "; cin >> s[i].inv_num;
-        cout << "Назва " << i+1 << "-го товару: "; cin >> s[i].name;
-        cout << "Вага " << i+1 << "-го товару: "; cin >> s[i].weight;
-        cout << "Ціна " << i+1 << "-го товару: "; cin >> s[i].price;
-        cout << "Кількість " << i+1 << "-го товару: "; cin >> s[i].amount;
+        cout << endl << "Інвентарний номер " << i+1 << "-го товару: ";
+        cin >> s[i].inv_num;
+        cout << "Назва " << i+1 << "-го товару: ";
+        cin >> s[i].name;
+        cout << "Вага " << i+1 << "-го товару: ";
+        cin >> s[i].weight;
+        cout << "Ціна " << i+1 << "-го товару: ";
+        cin >> s[i].price;
+        cout << "Кількість " << i+1 << "-го товару: ";
+        cin >> s[i].amount;
     }
 }
 
+// функція для виведення даних
 void show(){
     cout << endl << "Виведення даних в табличному форматі: " << endl;
 
@@ -41,8 +49,10 @@ void show(){
     }
 }
 
+// функція для сортування даних
 void sort(){
 
+    // мітка для того, аби повторити потрібне
     start:
 
     cout << "===========================================" << endl;
@@ -65,6 +75,7 @@ void sort(){
     cout << "Ваш вибір: ";
     cin >> choice;
 
+    // сортування
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n - 1; ++j) {
             switch(choice) {
