@@ -34,7 +34,7 @@ int main() {
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
             if (arr[i][j] % 2 != 0){
-                arr[i][j] = pow(arr[i][j], 2);
+                arr[i][j] = round(pow(arr[i][j], 2));
             }
         }
     }

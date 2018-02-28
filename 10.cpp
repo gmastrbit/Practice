@@ -15,7 +15,7 @@ int main() {
     cout << "Початковий масив:" << endl << endl;
     for (int i = 0; i < 12; i++){
         x[i] = rand()%10+3;
-        cout << x[i] << endl;
+        cout << x[i] << " ";
     }
 
     // визначення мінімального значення
@@ -37,7 +37,7 @@ int main() {
     cout << endl << endl << "Новий масив:" << endl << endl;
 
     for (int i = 0; i < 12; i++){
-        cout << x[i] << endl;
+        cout << x[i] << " ";
     }
 
     return 0;
