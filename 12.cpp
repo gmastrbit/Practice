@@ -16,7 +16,7 @@ int main() {
     cout << "Початковий масив: " << endl << endl;
     for (int i = 0; i < 5; i++){
         arr[i] = rand()%10-5;
-        cout << arr[i] << endl;
+        cout << arr[i] << " ";
     }
 
     // обчислення суми квадратних коренів модулів цих чисел
@@ -24,7 +24,7 @@ int main() {
         res += sqrt(abs(arr[i]));
     }
 
-    cout << endl << "Результат: " << res;
+    cout << endl << endl << "Результат: " << res;
 
     return 0;
 }

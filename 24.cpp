@@ -53,7 +53,7 @@ int main() {
     lst.Add(100); 		                        // Записати 100 в список
     lst.Add(200); 		                        // Записати 200 в список
     lst.Add(300); 		                        // Записати 300 в список
-    lst.Show(500);
+    lst.Show(5);
     // system("PAUSE"); 		                // Пауза
     return 0;
 }

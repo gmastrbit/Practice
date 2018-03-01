@@ -56,7 +56,7 @@ void View (Stack *p) {
     }
     cout << "Стек: "<<endl;
     while (t != NULL){
-        cout << t -> info << endl;
+        cout << t -> info << " ";
         t = t -> next;
     }
     cout << endl;
@@ -72,6 +72,7 @@ int main(){
     cout << "Введіть розмір стеку: ";
     cin >> n;
 
+    // заповнення стеку
     for (int i = 1; i <= n; i++){
         in = rand()%100;
         _begin = InStack(_begin,in);
@@ -84,13 +85,13 @@ int main(){
     // звертаємось до функції для заміни місцями 1 і 3 елемента
     _begin = exchange1(_begin, n);
 
-    cout << "Заміна місцями 1 і 3 елемента:" << endl;
+    cout << endl << "Заміна місцями 1 і 3 елемента:" << endl;
     View (_begin);
 
     // звертаємось до функції для заміни місцями 1 і 2 елемента
     _begin = exchange2(_begin, n);
 
-    cout << "Заміна місцями 1 і 2 елемента:" << endl;
+    cout << endl << "Заміна місцями 1 і 2 елемента:" << endl;
     View (_begin);
 
     return 0;

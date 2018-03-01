@@ -21,7 +21,7 @@ int main() {
     cout << "Заданий масив: " << endl << endl;
     for (int i = 0; i < n; i++){
         x[i] = rand()%10-5;
-        cout << x[i] << endl;
+        cout << x[i] << " ";
     }
 
     // знаходження першого ненульового елемента і його індекса
@@ -61,9 +61,9 @@ int main() {
     }
 
     // виведення кінцевого масиву
-    cout << endl << "Кiнцевий масив: " << endl << endl;
+    cout << endl << endl << "Кiнцевий масив: " << endl << endl;
     for (int i = 0; i < n; i++){
-        cout << x[i] << endl;
+        cout << x[i] << " ";
     }
 
     return 0;
